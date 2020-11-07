@@ -20,8 +20,8 @@ public class Score {
         if(coba <= 5){
             score = score + 50;
         }
-        System.out.println("Jumlah percobaan: " + coba);
-        System.out.println("Score anda: " + score);
+        System.out.println("Jumlah percobaan: " + (coba + 1));
+        System.out.println("Score anda: " + (score - 2));
     }
     void cobalah(){
         coba++;

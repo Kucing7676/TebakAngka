@@ -22,7 +22,7 @@ public class Tebakan {
             int tebak = jawab.nextInt();
             System.out.println("---------------------------------------------------");
             if ( s.score == 2 ){
-                System.out.println("Jumlah percobaan: " + s.coba);
+                System.out.println("Jumlah percobaan: " + (s.coba + 1));
                 System.out.println("Maaf... Score anda 0, Jawabannya " + acak);
                 System.out.println("<== GAME OVER ==>");
                 break;

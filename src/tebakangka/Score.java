@@ -21,7 +21,7 @@ public class Score {
             score = score + 50;
         }
         System.out.println("Jumlah percobaan: " + (coba + 1));
-        System.out.println("Score anda: " + (score - 2));
+        System.out.println("Score anda: " + score);
     }
     void cobalah(){
         coba++;
